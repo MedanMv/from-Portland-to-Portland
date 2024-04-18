@@ -1,43 +1,25 @@
-@media only screen and (max-width: 320px) {
-    
-}
-
-@media only screen and (min-width: 321px) and (max-width: 768px) {
-    
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-    
-}
-
-@media only screen and (min-width: 1281px) {
-    @import '../blocks/cover/cover.css';
+@import '../blocks/cover/cover.css';
 
 
-    @import '../blocks/footer/footer.css';
+@import '../blocks/footer/footer.css';
 
     
-    @import '../blocks/header/header.css';
+@import '../blocks/header/header.css';
 
     
-    @import '../blocks/intro/intro.css';
+@import '../blocks/intro/intro.css';
 
 
-    @import '../blocks//lead/lead.css';
-
-    
-    @import '../blocks/logo/logo.css';
+@import '../blocks//lead/lead.css';
 
     
-    @import '../blocks/photo-grid/photo-grid.css';
+@import '../blocks/logo/logo.css';
 
     
-    @import '../blocks/place/place.css';
+@import '../blocks/photo-grid/photo-grid.css';
 
     
-    @import '../blocks/places/places.css';
-}
+@import '../blocks/place/place.css';
+
+    
+@import '../blocks/places/places.css';
