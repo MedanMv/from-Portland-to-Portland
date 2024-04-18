@@ -1,64 +1,43 @@
-@import '../blocks/cards/__description/cards__description.css';
-@import '../blocks/cards/__image/cards__image.css';
-@import '../blocks/cards/__item/cards__item.css';
-@import '../blocks/cards/__title/cards__title.css';
-@import '../blocks/cards/cards.css';
+@media only screen and (max-width: 320px) {
+    
+}
 
-@import '../blocks/description/description.css';
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    
+}
 
-@import '../blocks/feynman/__link/feynman__link.css';
-@import '../blocks/feynman/__subtitle/feynman__subtitle.css';
-@import '../blocks/feynman/__title/feynman__title.css';
-@import '../blocks/feynman/feynman.css';
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
 
-@import '../blocks/footer/__author/footer__author.css';
-@import '../blocks/footer/__content/footer__content.css';
-@import '../blocks/footer/footer.css';
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+}
 
-@import '../blocks/header/__link/header__link.css';
-@import '../blocks/header/__main-illustration/header__main-illustration.css';
-@import '../blocks/header/__square-pic/header__square-pic.css';
-@import '../blocks/header/__subtitle/header__subtitle.css';
-@import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/header.css';
+@media only screen and (min-width: 1281px) {
+    @import '../blocks/cover/cover.css';
 
-@import '../blocks/kaufman/__triangle/kaufman__triangle.css';
-@import '../blocks/kaufman/kaufman.css';
-@import '../blocks/kaufman/__section-title/kaufman__section-title.css';
-@import '../blocks/kaufman/__section-subtitle/kaufman__section-subtitle.css';
 
-@import '../blocks/logo/_place/logo_place_footer.css';
-@import '../blocks/logo/_place/logo_place_header.css';
-@import '../blocks/logo/logo.css';
+    @import '../blocks/footer/footer.css';
 
-@import '../blocks/oakley/oakley.css';
+    
+    @import '../blocks/header/header.css';
 
-@import '../blocks/page/page.css';
+    
+    @import '../blocks/intro/intro.css';
 
-@import '../blocks/resources/__link/resources__link.css';
-@import '../blocks/resources/__logo-zone/resources__logo-zone.css';
-@import '../blocks/resources/__logo/resources__logo.css';
-@import '../blocks/resources/resources.css';
-@import '../blocks/resources/__section-subtitle/resources__section-subtitle.css';
-@import '../blocks/resources/__section-title/resources__section-title.css';
 
-@import '../blocks/rotation/rotation.css';
+    @import '../blocks//lead/lead.css';
 
-@import '../blocks/section-subtitle/section-subtitle.css';
+    
+    @import '../blocks/logo/logo.css';
 
-@import '../blocks/section-title/section-title.css';
+    
+    @import '../blocks/photo-grid/photo-grid.css';
 
-@import '../blocks/table/__cell/table__cell.css';
-@import '../blocks/table/__heading/table__heading.css';
-@import '../blocks/table/__text/table__text.css';
-@import '../blocks/table/table.css';
+    
+    @import '../blocks/place/place.css';
 
-@import '../blocks/techniques/techniques.css';
-@import '../blocks/techniques/__section-subtitle/techniques__section-subtitle.css';
-@import '../blocks/techniques/__section-title/techniques__section-title.css';
-
-@import '../blocks/two-columns/__brief/two-columns__brief.css';
-@import '../blocks/two-columns/__main-text/two-columns__main-text.css';
-@import '../blocks/two-columns/__paragraph/two-columns__paragraph.css';
-@import '../blocks/two-columns/__span-accent/two-columns__span-accent.css';
-@import '../blocks/two-columns/two-columns.css';
+    
+    @import '../blocks/places/places.css';
+}
