@@ -10,8 +10,6 @@
 
 @import '../blocks/header/header.css';
 @import '../blocks/header/__lang-link/header__lang-link.css';
-@import '../blocks/header/__container/header__container.css';
-@import '../blocks/header/__lang-container/header__lang-container.css';
     
 @import '../blocks/intro/intro.css';
 @import '../blocks/intro/__list/intro__list.css';
