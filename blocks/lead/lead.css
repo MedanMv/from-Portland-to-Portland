@@ -1,3 +1,24 @@
-.lead{
+
+@media (min-width: 1281px){
+    .lead{
     
+    }
+}
+  
+@media (min-width: 769px) and (max-width: 1280px){
+    .lead{
+    
+    }
+}
+  
+@media (min-width: 321px) and (max-width: 768px){
+    .lead{
+    
+    }
+}
+  
+@media (max-width: 320px){
+    .lead{
+    
+    }
 }

@@ -1,3 +1,24 @@
-.cover{
+
+@media (min-width: 1281px){
+    .cover{
     
+    }
+}
+  
+@media (min-width: 769px) and (max-width: 1280px){
+    .cover{
+    
+    }
+}
+  
+@media (min-width: 321px) and (max-width: 768px){
+    .cover{
+    
+    }
+}
+  
+@media (max-width: 320px){
+    .cover{
+    
+    }
 }

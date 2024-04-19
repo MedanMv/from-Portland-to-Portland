@@ -1,3 +1,24 @@
-.footer{
+
+@media (min-width: 1281px){
+    .footer{
     
+    }
+}
+  
+@media (min-width: 769px) and (max-width: 1280px){
+    .footer{
+    
+    }
+}
+  
+@media (min-width: 321px) and (max-width: 768px){
+    .footer{
+    
+    }
+}
+  
+@media (max-width: 320px){
+    .footer{
+    
+    }
 }
