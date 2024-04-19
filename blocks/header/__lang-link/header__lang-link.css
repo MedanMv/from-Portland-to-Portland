@@ -1,0 +1,4 @@
+.header__lang-link:active, .header__lang-link:focus{
+    text-decoration: underline;
+    outline: none;
+}
