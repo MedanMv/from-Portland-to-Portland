@@ -3,25 +3,57 @@
     outline: none;
 }
 
-@media (min-width: 769px){
+.header__lang-link{
+    font-family: 'Inter', sans-serif;
+    text-align: right;
+}
+
+@media screen and (min-width: 1281px){
     .header__lang-link{
-        width: 29px;
+        width: 27px;
         height: 28px;
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
-        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .header__lang-link{
+        width: 27px;
+        height: 28px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .header__lang-link{
+        width: 27px;
+        height: 28px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
   
-@media (min-width: 321px) and (max-width: 768px){
+@media screen and (min-width: 321px) and (max-width: 768px){
     .header__lang-link{
-    
+        width: 27px;
+        height: 28px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
   
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
     .header__lang-link{
-    
+        width: 21px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
     }
 }
