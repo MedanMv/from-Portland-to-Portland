@@ -6,6 +6,12 @@
 .header__lang-link{
     font-family: 'Inter', sans-serif;
     text-align: right;
+    margin-right: 18px;
+}
+
+.header__lang-link:last-child{
+    float: right;
+    margin-right: 0;
 }
 
 @media screen and (min-width: 1281px){

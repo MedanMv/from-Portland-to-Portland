@@ -1,39 +1,50 @@
 .header{
+    position: relative;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* justify-content: center; */
+    margin-left: auto; /* Adjust as needed */
+    margin-right: auto; /* Adjust as needed */
+    /* justify-content: space-between; */
 }
   
 @media screen and (min-width: 1281px){
     .header{
+        width: 984px;
+        height: 44px;
         margin-top: 34px;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .header{
+        width: 984px;
+        height: 44px;
         margin-top: 34px;
-    
     }
 }
   
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .header{
         margin-top: 34px;
-    
+        width: 928px;
+        height: 44px;
     }
 }
   
 @media screen and (min-width: 321px) and (max-width: 768px){
     .header{
+        width: 720px;
+        height: 44px;
         margin-top: 34px;
-    
     }
 }
 
 @media screen and (max-width: 320px){
     .header{
+        width: 288px;
+        height: 36px;
         margin-top: 20px;
-
     }
 }
