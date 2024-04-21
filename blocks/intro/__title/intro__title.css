@@ -4,30 +4,50 @@
 
 @media screen and (min-width: 1281px){
     .intro__title{
-    
+        width: 690px;
+        height: 116px;
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 58px;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .intro__title{
-    
+        width: 690px;
+        height: 116px;
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 58px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .intro__title{
-    
+        width: 690px;
+        height: 116px;
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 58px;
     }
 }
   
 @media screen and (min-width: 321px) and (max-width: 768px){
     .intro__title{
-    
+        width: 720px;
+        height: 116px;
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 58px;
     }
 }
   
 @media screen and (max-width: 320px){
     .intro__title{
-    
+        width: 288px;
+        height: 105px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
     }
 }
