@@ -1,24 +1,50 @@
+.place{
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0;
+  position: relative;
+}
 
-@media (min-width: 1281px){
-  .place{
+.place:first-child{
+  margin-top: 0;
+}
 
+@media screen and (min-width: 1281px){
+  .place{
+    margin-top: 80px;
+    width: 984px;
+    height: 584px;
   }
 }
-  
-@media (min-width: 769px) and (max-width: 1280px){
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
   .place{
-    
+    margin-top: 80px;
+    width: 984px;
+    height: 584px;
   }
 }
-  
-@media (min-width: 321px) and (max-width: 768px){
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
   .place{
-    
+    margin-top: 80px;
+    width: 928px;
+    height: 564px;
   }
 }
-  
-@media (max-width: 320px){
+
+@media screen and (min-width: 321px) and (max-width: 768px){
   .place{
-    
+    margin-top: 72px;
+    width: 720px;
+    height: 508px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place{
+    margin-top: 48px;
+    width: 320px;
+    height: 985px;
   }
 }

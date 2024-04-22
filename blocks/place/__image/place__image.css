@@ -1,3 +1,28 @@
 .place__image{
-    
+    position: absolute;
+}
+
+
+@media (min-width: 1281px){
+    .place__image{
+    bottom: 0;
+    left: 0;
+}
+}
+  
+@media (min-width: 769px) and (max-width: 1280px){
+    .place__image{
+    bottom: 0;
+    left: 0;
+}
+}
+  
+@media (min-width: 321px) and (max-width: 768px){
+    .place__image{
+}
+}
+  
+@media (max-width: 320px){
+    .place__image{
+}
 }
