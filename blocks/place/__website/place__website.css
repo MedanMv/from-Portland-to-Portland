@@ -4,17 +4,7 @@
 }
 
 
-@media screen and (min-width: 1281px){
-    .place__website{
-        width: 456px;
-        height: 46px;
 
-        margin-right: 28px;
-        margin-left: auto;
-        margin-top: 30px;
-    }
-    
-  }
   
   @media screen and (min-width: 1025px) and (max-width: 1280px){
     .place__website{

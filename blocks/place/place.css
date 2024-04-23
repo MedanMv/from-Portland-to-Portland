@@ -9,13 +9,7 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 1281px){
-  .place{
-    margin-top: 80px;
-    width: 984px;
-    height: 584px;
-  }
-}
+
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
   .place{

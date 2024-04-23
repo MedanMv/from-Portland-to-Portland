@@ -4,13 +4,7 @@
 
 }
 
-@media screen and (min-width: 1281px){
-  .places{
-    width: 984px;
-    height: 3434px;
-    margin-top: 92px;
-  }
-}
+
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
   .places{

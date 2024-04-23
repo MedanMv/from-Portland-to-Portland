@@ -2,14 +2,7 @@
     margin: 0;
 }
 
-@media screen and (min-width: 1281px){
-    .photo-grid__item{
-        width: 284px;
-        height: 213px;
-        
-    }
-    
-}
+
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .photo-grid__item{
