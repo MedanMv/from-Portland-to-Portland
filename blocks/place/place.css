@@ -1,7 +1,6 @@
 .place{
   margin-left: auto;
   margin-right: auto;
-  gap: 0;
   position: relative;
 }
 
@@ -13,9 +12,11 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
   .place{
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: auto auto auto auto;
     margin-top: 80px;
     width: 984px;
-    height: 584px;
   }
 }
 
@@ -23,7 +24,6 @@
   .place{
     margin-top: 80px;
     width: 928px;
-    height: 564px;
   }
 }
 
@@ -31,7 +31,6 @@
   .place{
     margin-top: 72px;
     width: 720px;
-    height: 508px;
   }
 }
 
@@ -39,6 +38,5 @@
   .place{
     margin-top: 48px;
     width: 320px;
-    height: 985px;
   }
 }
