@@ -6,10 +6,10 @@
 
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
-    .place__title{
-        
+    .place__title{  
+        height: fit-content;
+        grid-column: 1; 
         width: 460px;
-        height: 76px;
         font-size: 72px;
         font-weight: 900;
         line-height: 76px;
@@ -20,8 +20,9 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .place__title{
+        height: fit-content;
+        grid-column: 1; 
         width: 440px;
-        height: 76px;
         font-size: 72px;
         font-weight: 900;
         line-height: 76px;
@@ -32,8 +33,9 @@
   
 @media screen and (min-width: 321px) and (max-width: 768px){
     .place__title{
+        height: fit-content;
+        grid-column: 1; 
         width: 340px;
-        height: 46px;
         font-size: 42px;
         font-weight: 900;
         line-height: 46px;
@@ -45,7 +47,6 @@
 @media screen and (max-width: 320px){
     .place__title{
         width: 288px;
-        height: 35px;
         font-size: 32px;
         font-weight: 900;
         line-height: 35px;

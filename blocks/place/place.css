@@ -8,20 +8,22 @@
   margin-top: 0;
 }
 
-
-
 @media screen and (min-width: 1025px) and (max-width: 1280px){
   .place{
     display: grid;
-    grid-template-columns: 460px 484px;
-    grid-template-rows: auto auto auto auto;
+    /* grid-template-columns: auto auto;   */
+    grid-auto-flow: column;
     margin-top: 80px;
-    width: 984px;
+    width: 984px;  
   }
 }
 
+
 @media screen and (min-width: 769px) and (max-width: 1024px){
   .place{
+    display: grid;
+    /* grid-template-columns: auto auto;   */
+    grid-auto-flow: column;
     margin-top: 80px;
     width: 928px;
   }
@@ -29,6 +31,9 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px){
   .place{
+    display: grid;
+    /* grid-template-columns: auto auto;   */
+    grid-auto-flow: column;
     margin-top: 72px;
     width: 720px;
   }
@@ -36,6 +41,8 @@
 
 @media screen and (max-width: 320px){
   .place{
+    display: flex;
+    flex-direction: column;
     margin-top: 48px;
     width: 320px;
   }

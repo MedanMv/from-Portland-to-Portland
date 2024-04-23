@@ -34,6 +34,7 @@
 @import '../blocks/place/__title/place__title.css';
 @import '../blocks/place/__url-heading/place__url-heading.css';
 @import '../blocks/place/__website/place__website.css';
+@import '../blocks/place/__container/place__container.css';
     
 @import '../blocks/places/places.css';
 

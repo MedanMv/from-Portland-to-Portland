@@ -9,18 +9,22 @@
   
   @media screen and (min-width: 1025px) and (max-width: 1280px){
     .place__website{
+        grid-column: 2; 
+        grid-row: 1;
         width: 456px;
         height: 46px;
         
         margin-right: 28px;
         margin-left: auto;
-        margin-top: 30px;
+        margin-top: 30px;  
+        align-self: end;
     }
-    
   }
   
   @media screen and (min-width: 769px) and (max-width: 1024px){
     .place__website{
+      grid-column: 2; 
+      grid-row: 1;
         width: 456px;
         height: 46px;
 
@@ -33,6 +37,8 @@
   
   @media screen and (min-width: 321px) and (max-width: 768px){
     .place__website{
+      grid-column: 2; 
+      grid-row: 1;
         width: 352px;
         height: 46px;
         
