@@ -25,6 +25,10 @@
   
   @media screen and (max-width: 320px){
     .place__container{
+      margin-top: 32px;
+      width: 288px;
+      margin-right: auto;
+      margin-left: auto;
 
     }
   }

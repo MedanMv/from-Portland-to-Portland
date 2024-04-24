@@ -41,8 +41,8 @@
 
 @media screen and (max-width: 320px){
   .place{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-column: 1fr;
     margin-top: 48px;
     width: 320px;
   }

@@ -46,11 +46,13 @@
   
 @media screen and (max-width: 320px){
     .place__title{
+        grid-row: 1;
         width: 288px;
         font-size: 32px;
         font-weight: 900;
         line-height: 35px;
-
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
