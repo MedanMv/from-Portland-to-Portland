@@ -1,9 +1,15 @@
 .place__link{
     margin-top: 12px;
     text-align: left;
-    
+    text-decoration: underline; 
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
 }
 
+.place__link:hover{
+  color: lightgray;
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .place__link{

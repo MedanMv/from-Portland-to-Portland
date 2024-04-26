@@ -1,16 +1,19 @@
 
 .cover__overlay{
-    background-image: url('../../../images/route66.png');    
-    background-size: contain; /* or contain */
-    background-position: center;
-    background-repeat: no-repeat;
+    z-index: 8;
     position: relative;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cover__overlay:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .cover__overlay{
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         width: 1184px;
         height: 740px;
         margin-top: 92px;

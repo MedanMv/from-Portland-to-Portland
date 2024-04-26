@@ -1,6 +1,12 @@
 .footer__link{
+    color: white;
     text-align: left;
-    
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer__link:hover{
+    color: lightgray;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
