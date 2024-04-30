@@ -1,7 +1,3 @@
-.header__lang-link:active, .header__lang-link:focus{
-    text-decoration: underline;
-    outline: none;
-}
 
 .header__lang-link{
     text-align: right;
@@ -13,7 +9,9 @@
     margin-right: 0;
 }
 
-
+.header__lang-link:first-of-type{
+    text-decoration: underline;
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .header__lang-link{
