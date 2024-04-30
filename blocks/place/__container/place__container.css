@@ -12,21 +12,18 @@
   @media screen and (min-width: 769px) and (max-width: 1024px){
     .place__container{
       margin-top: 48px;
-
     }
   }
   
   @media screen and (min-width: 321px) and (max-width: 768px){
     .place__container{
       margin-top: 48px;
-
     }
   }
   
   @media screen and (max-width: 320px){
     .place__container{
       margin-top: 32px;
-      width: 288px;
       margin-right: auto;
       margin-left: auto;
 
