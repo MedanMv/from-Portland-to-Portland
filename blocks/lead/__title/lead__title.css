@@ -9,8 +9,8 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .lead__title{
-        width: 720px;
-        height: 200px;
+        max-width: 720px;
+        /* height: 200px; */
         font-size: 96px;
         font-weight: 900;
         line-height: 100px;
@@ -19,8 +19,8 @@
   
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .lead__title{
-        width: 720px;
-        height: 200px;
+        max-width: 720px;
+        /* height: 200px; */
         font-size: 96px;
         font-weight: 900;
         line-height: 100px;
@@ -29,8 +29,8 @@
   
 @media screen and (min-width: 321px) and (max-width: 768px){
     .lead__title{
-        width: 720px;
-        height: 200px;
+        max-width: 720px;
+        /* height: 200px; */
         font-size: 96px;
         font-weight: 900;
         line-height: 100px;
@@ -40,8 +40,8 @@
   
 @media screen and (max-width: 320px){
     .lead__title{
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
+        /* height: 88px; */
         font-size: 40px;
         font-weight: 900;
         line-height: 44px;

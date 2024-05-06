@@ -8,8 +8,8 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .lead__subtitle{
         margin-top: 32px;
-        width: 620px;
-        height: 72px;
+        max-width: 620px;
+        /* height: 72px; */
         font-size: 30px;
         font-weight: 400;
         line-height: 36px;
@@ -27,8 +27,8 @@
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .lead__subtitle{
         margin-top: 32px;
-        width: 620px;
-        height: 72px;
+        max-width: 620px;
+        /* height: 72px; */
         font-size: 30px;
         font-weight: 400;
         line-height: 36px;
@@ -46,8 +46,8 @@
 @media screen and (min-width: 321px) and (max-width: 768px){
     .lead__subtitle{
         margin-top: 32px;
-        width: 620px;
-        height: 72px;
+        max-width: 620px;
+        /* height: 72px; */
         font-size: 30px;
         font-weight: 400;
         line-height: 36px;
@@ -65,8 +65,8 @@
 @media screen and (max-width: 320px){
     .lead__subtitle{
         margin-top: 16px;
-        width: 288px;
-        height: 40px;
+        max-width: 288px;
+        /* height: 40px; */
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
