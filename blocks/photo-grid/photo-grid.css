@@ -1,4 +1,9 @@
-.photo-grid{
+
+
+
+
+  
+  .photo-grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -7,9 +12,7 @@
 }
 
 
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .photo-grid{
         margin-top: 92px;
         width: 1184px;
@@ -18,18 +21,15 @@
     }
     
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .photo-grid{
         margin-top: 92px;
         width: 928px;
         height: 942px;
         gap: 14px;
     }
-    
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .photo-grid{
         margin-top: 88px;
         width: 720px;
@@ -38,28 +38,11 @@
     }
     
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .photo-grid{
         margin-top: 64px;
         width: 288px;
         height: 2724px;
         gap: 12px;
     }
-}
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

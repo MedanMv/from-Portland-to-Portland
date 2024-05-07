@@ -1,3 +1,6 @@
+
+  
+
 .header{
     position: relative;
     display: flex;
@@ -10,51 +13,31 @@
 }
   
 
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .header{
         width: 984px;
         height: 44px;
         margin-top: 34px;
     }
 }
-  
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .header{
         margin-top: 34px;
         width: 928px;
         height: 44px;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .header{
         width: 720px;
         height: 44px;
         margin-top: 34px;
     }
 }
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .header{
         width: 288px;
         height: 36px;
         margin-top: 20px;
     }
-}
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

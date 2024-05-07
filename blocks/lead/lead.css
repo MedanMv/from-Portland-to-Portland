@@ -1,3 +1,9 @@
+
+
+
+
+
+  
 .lead{
     position: relative;
     display: flex;
@@ -5,54 +11,31 @@
     align-items: center;
     margin: 0 auto;
 }
-
-
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .lead{
         margin-top: 58px;
         width: 984px;
         height: 1005px;
     }
 }
-  
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .lead{
         margin-top: 50px;
         width: 928px;
         height: 962px;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .lead{
         margin-top: 50px;
         width: 100%;
         height: 862px;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .lead{
         margin-top: 50px;
         width: 100%;
         height: 406px;
     }
-}
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

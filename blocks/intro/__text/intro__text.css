@@ -1,3 +1,7 @@
+
+  
+
+
 .intro__text{
     margin-top: 40px;
 }
@@ -7,7 +11,7 @@
 
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .intro__text{
         max-width: 690px;
         /* height: 68px; */
@@ -23,8 +27,7 @@
         line-height: 26.08px;
     }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .intro__text{
         max-width: 690px;
         /* height: 68px; */
@@ -40,8 +43,7 @@
         line-height: 26.08px;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .intro__text{
         max-width: 720px;
         /* height: 68px; */
@@ -57,8 +59,7 @@
         line-height: 26.08px;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .intro__text{
         max-width: 288px;
         /* height: 90px; */
@@ -73,22 +74,4 @@
         font-weight: 400;
         line-height: 26.08px;
     }
-}
-
-
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

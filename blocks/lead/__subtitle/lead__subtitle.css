@@ -1,11 +1,14 @@
+
+
+
+  
+
 .lead__subtitle{
     text-align: center;
     margin-bottom: 0;
 }
 
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .lead__subtitle{
         margin-top: 32px;
         max-width: 620px;
@@ -23,8 +26,7 @@
         display: block;
     }
 }
-  
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .lead__subtitle{
         margin-top: 32px;
         max-width: 620px;
@@ -42,8 +44,7 @@
         display: block;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .lead__subtitle{
         margin-top: 32px;
         max-width: 620px;
@@ -61,8 +62,7 @@
         display: block;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .lead__subtitle{
         margin-top: 16px;
         max-width: 288px;
@@ -79,22 +79,4 @@
         content: "from Portland, ME. to Portland, OR";
         display: block;
     }
-}
-
-
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

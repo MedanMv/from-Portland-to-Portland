@@ -1,3 +1,8 @@
+
+
+
+  
+  
 .lead__caption{
     position: absolute;
     /* width: 182px; */
@@ -11,50 +16,28 @@
     margin-top: 8px;
 }
 
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .lead__caption{
         left: 0;
         bottom: 0;
     }
 }
-  
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .lead__caption{
         left: 0;
         bottom: 0;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .lead__caption{
         left: 24px;
         bottom: 0;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .lead__caption{
         left: 16px;
         bottom: 0;
     
     }
-}
-
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

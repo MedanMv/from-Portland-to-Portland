@@ -1,54 +1,39 @@
+
+
+
+
+  
+  
+
 .logo{
-  background-image: url('../../images/logo.png');  
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  left: 0;
-}
-  
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+    background-image: url('../../images/logo.png');  
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+  }
+    
+@media screen and (min-width: 1280px){
     .logo{
         width: 190px;
         height: 44px;
     }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .logo{
         width: 190px;
         height: 44px;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .logo{
         width: 190px;
         height: 44px;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .logo{
         width: 156px;
         height: 36px;
     }
-}
-
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

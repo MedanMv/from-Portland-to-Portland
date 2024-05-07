@@ -1,11 +1,11 @@
+
 .intro{
     position: relative;
     text-align: left;
 }
 
 
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .intro{
         left: 148px;
         margin-top: 92px;
@@ -13,8 +13,7 @@
         height: 569px;
     }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .intro{
         left: 48px;
         margin-top: 92px;
@@ -22,8 +21,7 @@
         height: 569px;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .intro{
         left: 24px;
         margin-top: 88px;
@@ -31,28 +29,11 @@
         height: 543px;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .intro{
         left: 16px;
         margin-top: 64px;
         width: 288px;
         height: 841px;
     }
-}
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

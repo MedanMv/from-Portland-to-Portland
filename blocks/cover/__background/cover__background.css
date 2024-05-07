@@ -1,4 +1,6 @@
 
+
+
 .cover__background{
     z-index: 5;
     background-image: url('../../../images/route66.png');    
@@ -7,10 +9,7 @@
     background-repeat: no-repeat;
 }
 
-
-
-
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .cover__background{
         margin-left: auto;
         margin-right: auto;
@@ -19,20 +18,16 @@
         margin-top: 92px;
         
     }
-    
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .cover__background{
         margin-top: 92px;
         width: 1024px;
         height: 640px;
         
     }
-    
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .cover__background{
         margin-top: 89px;
         width: 768px;
@@ -41,14 +36,11 @@
     }
     
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .cover__background{
         margin-top: 64px;
         width: 320px;
         height: 200px;
-        
-        
     }
     
-}
+} 

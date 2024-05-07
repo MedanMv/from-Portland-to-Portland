@@ -1,3 +1,6 @@
+
+
+
 .cover__subtitle{
     text-align: center;
     position: absolute;
@@ -5,7 +8,7 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .cover__subtitle{
         left: 432px;
         
@@ -25,8 +28,7 @@
         display: block;
     }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .cover__subtitle{
         top: 341px;
         left: 352px;
@@ -46,8 +48,7 @@
         display: block;
     }
 }
-  
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .cover__subtitle{
         top: 261px;
         left: 224px;
@@ -67,8 +68,7 @@
         display: block;
     }
 }
-  
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .cover__subtitle{
         top: 102px;
         left: 16px;
@@ -87,20 +87,4 @@
         content: "from Santa Monica, Cal. to Chicago, Ill.";
         display: block;
     }
-}
-
-.element {
-    /* global styles */
-}
-@media screen and (min-width: 1280px){
-    /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-    /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-     /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-     /* styles for 320px */
 } 

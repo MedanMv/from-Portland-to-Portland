@@ -1,68 +1,45 @@
-.footer__copyright{
-}
 
-@media screen and (min-width: 1025px) and (max-width: 1280px){
-    .footer__copyright{
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        width: 165px;
-        height: 16px;
-        text-align: right;
-        margin-left: 808px;
-    }
-    
-  }
-  
-  @media screen and (min-width: 769px) and (max-width: 1024px){
-    .footer__copyright{
-        width: 165px;
-        height: 16px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: right;
-        margin-left: 552px;
-    }
-  }
-  
-  @media screen and (min-width: 321px) and (max-width: 768px){
-    .footer__copyright{
-        width: 165px;
-        height: 16px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: right;
-        margin-left: 344px;
-    }
-  }
-  
-  @media screen and (max-width: 320px){
-    .footer__copyright{
-        width: 165px;
-        height: 14px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 14px;
-        text-align: left;
-        margin-top: 48px;
-    }
-  }
-
-
-  .element {
-    /* global styles */
-}
 @media screen and (min-width: 1280px){
-    /* styles for 1280px */
+  .footer__copyright{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      width: 165px;
+      height: 16px;
+      text-align: right;
+      margin-left: 808px;
+  }
 }
 @media screen and (max-width: 1279px){
-    /* styles for 1024px */
+  .footer__copyright{
+      width: 165px;
+      height: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: right;
+      margin-left: 552px;
+  }
 }
 @media screen and (max-width: 1023px){
-     /* styles for 768px */
+  .footer__copyright{
+      width: 165px;
+      height: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: right;
+      margin-left: 344px;
+  }
 }
 @media screen and (max-width: 767px){
-     /* styles for 320px */
+  .footer__copyright{
+      width: 165px;
+      height: 14px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 14px;
+      text-align: left;
+      margin-top: 48px;
+  }
 } 
