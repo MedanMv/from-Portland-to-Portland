@@ -15,28 +15,24 @@
     .intro__list{
         margin-top: 33px;
         width: 690px;
-        /* height: 72px; */
     }
 }
 @media screen and (max-width: 1279px){
     .intro__list{
         margin-top: 33px;
         width: 690px;
-        /* height: 72px; */
     }
 }
 @media screen and (max-width: 1023px){
     .intro__list{
         margin-top: 33px;
         width: 720px;
-        /* height: 72px; */
     }
 }
 @media screen and (max-width: 767px){
     .intro__list{
         margin-top: 34px;
         width: 288px;
-        /* height: 72px; */
         
     }
 } 

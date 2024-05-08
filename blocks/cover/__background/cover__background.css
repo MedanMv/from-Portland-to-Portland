@@ -4,7 +4,7 @@
 .cover__background{
     z-index: 5;
     background-image: url('../../../images/route66.png');    
-    background-size: contain; /* or contain */
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
 }

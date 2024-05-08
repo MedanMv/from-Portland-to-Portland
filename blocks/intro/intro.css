@@ -10,7 +10,6 @@
         left: 148px;
         margin-top: 92px;
         width: 690px;
-        /* height: 569px; */
     }
 }
 @media screen and (max-width: 1279px){
@@ -18,7 +17,6 @@
         left: 48px;
         margin-top: 92px;
         width: 690px;
-        /* height: 569px; */
     }
 }
 @media screen and (max-width: 1023px){
@@ -26,7 +24,6 @@
         left: 24px;
         margin-top: 88px;
         width: 720px;
-        /* height: 543px; */
     }
 }
 @media screen and (max-width: 767px){
@@ -34,6 +31,5 @@
         left: 16px;
         margin-top: 64px;
         width: 288px;
-        /* height: 841px; */
     }
 } 
