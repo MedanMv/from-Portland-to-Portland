@@ -1,7 +1,7 @@
 .place__url-heading{
     text-align: left;
     color: #AAAAAA;
-
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1280px){

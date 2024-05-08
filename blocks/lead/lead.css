@@ -15,27 +15,27 @@
     .lead{
         margin-top: 58px;
         width: 984px;
-        height: 1005px;
+        /* height: 1005px; */
     }
 }
 @media screen and (max-width: 1279px){
     .lead{
         margin-top: 50px;
         width: 928px;
-        height: 962px;
+        /* height: 962px; */
     }
 }
 @media screen and (max-width: 1023px){
     .lead{
         margin-top: 50px;
         width: 100%;
-        height: 862px;
+        /* height: 862px; */
     }
 }
 @media screen and (max-width: 767px){
     .lead{
         margin-top: 50px;
         width: 100%;
-        height: 406px;
+        /* height: 406px; */
     }
 } 

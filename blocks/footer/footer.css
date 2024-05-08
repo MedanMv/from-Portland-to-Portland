@@ -10,7 +10,7 @@
 @media screen and (min-width: 1280px){
   .footer{
       width: 1184px;
-      height: 18px;
+      /* height: 18px; */
       margin-left: auto;
       margin-right: auto;
       margin-top: 92px;
@@ -19,7 +19,7 @@
 @media screen and (max-width: 1279px){
   .footer{
       width: 928px;
-      height: 18px;
+      /* height: 18px; */
       margin-left: auto;
       margin-right: auto;
       margin-top: 92px;
@@ -28,7 +28,7 @@
 @media screen and (max-width: 1023px){
   .footer{
       width: 720px;
-      height: 18px;
+      /* height: 18px; */
       margin-left: auto;
       margin-right: auto;
       margin-top: 88px;
@@ -38,7 +38,7 @@
   .footer{
       flex-direction: column;
       width: 165px;
-      height: 198px;
+      /* height: 198px; */
       margin-top: 64px;
       margin-left: 16px;
       margin-right: 139px;

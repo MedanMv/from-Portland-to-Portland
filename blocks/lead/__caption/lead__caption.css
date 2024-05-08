@@ -4,8 +4,8 @@
   
   
 .lead__caption{
-    position: absolute;
-    /* width: 182px; */
+    text-transform: uppercase;
+    /* position: absolute; */
     height: 14px;
     
     font-size: 10px;
@@ -13,31 +13,31 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-align: left;
-    margin-top: 8px;
+    margin-top: 8px; 
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 1280px){
     .lead__caption{
-        left: 0;
-        bottom: 0;
+        margin-left: 0;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 1279px){
     .lead__caption{
-        left: 0;
-        bottom: 0;
+        margin-left: 0;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 1023px){
     .lead__caption{
-        left: 24px;
-        bottom: 0;
+        margin-left: 24px;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 767px){
     .lead__caption{
-        left: 16px;
-        bottom: 0;
-    
+        margin-left: 16px;
+        margin-right: auto;
     }
 } 
