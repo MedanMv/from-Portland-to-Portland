@@ -1,3 +1,7 @@
+
+
+
+
 .place{
   margin-left: auto;
   margin-right: auto;
@@ -8,7 +12,9 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+
+
+@media screen and (min-width: 1280px){
   .place{
     display: grid;
     /* grid-template-columns: auto auto;   */
@@ -17,9 +23,7 @@
     width: 984px;  
   }
 }
-
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1279px){
   .place{
     display: grid;
     /* grid-template-columns: auto auto;   */
@@ -28,8 +32,7 @@
     width: 928px;
   }
 }
-
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 1023px){
   .place{
     display: grid;
     /* grid-template-columns: auto auto;   */
@@ -38,30 +41,11 @@
     width: 720px;
   }
 }
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
   .place{
     display: grid;
     grid-column: 1fr;
     margin-top: 48px;
     width: 320px;
   }
-}
-
-
-
-.element {
-  /* global styles */
-}
-@media screen and (min-width: 1280px){
-  /* styles for 1280px */
-}
-@media screen and (max-width: 1279px){
-  /* styles for 1024px */
-}
-@media screen and (max-width: 1023px){
-   /* styles for 768px */
-}
-@media screen and (max-width: 767px){
-   /* styles for 320px */
 } 
