@@ -2,6 +2,7 @@
     text-align: left;
     color: #AAAAAA;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1280px){
