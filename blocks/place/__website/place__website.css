@@ -52,8 +52,7 @@
     height: 46px;
     grid-row: 2;
     margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
     grid-column: 1;
     margin-bottom: 0;
   }

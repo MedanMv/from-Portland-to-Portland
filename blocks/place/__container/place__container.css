@@ -17,8 +17,7 @@
 @media screen and (max-width: 767px){
   .place__container{
     margin-top: 32px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
     position: relative;
     grid-column: 1;
     grid-row: 4;
